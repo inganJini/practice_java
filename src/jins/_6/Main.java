@@ -30,7 +30,7 @@ public class Main {
         int gcd = 1; // 최대공약수
 
         for (int i = 1; i <= small; i++){
-            if (big % i == 0 && small % i == 0){
+            if (big % i == 0 && small % i == 0){  // i 로 떨어지는 수가 약수
                 gcd = i;
             }
         }
